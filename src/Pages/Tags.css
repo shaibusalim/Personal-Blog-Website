@@ -1,0 +1,31 @@
+.tags-container{
+    height: 300px;
+    width: 300px;
+}
+.tags-container h2{
+    margin: 0px 0px 50px 50px;
+    color: rgba(0,0,0,0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.tags-container .tags-content{
+    border: 1px solid black;
+    padding: 50px;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 7px;
+   background-color:white;
+   border-style: hidden;
+   box-sizing: border-box;
+   box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.09);
+   border-radius: 10px;
+}
+.tags-container div{
+    border: 1px solid blue;
+    padding: 5px;
+    border-style: hidden;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.6) ;
+}

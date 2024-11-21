@@ -1,0 +1,43 @@
+
+.topics-container h2{
+    margin: 0px 0px 50px 50px;
+    color: rgba(0,0,0,0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.topics-container .topic-content{
+   
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.topics-container .topic-content div{
+    border: 1px solid black;
+    height: 60px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+    font-weight: bolder;
+    border-style: hidden;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.09);
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.topics-container .topic-content div i{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(226, 229, 230);
+    margin-right: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
