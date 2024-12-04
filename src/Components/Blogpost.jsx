@@ -21,9 +21,9 @@ import posts from './Posts';
                                      <i className="fas fa-user"></i> 
                                      </div>
                                     
-                                    <div>
+                                    <div className='username'>
                                         <p>{post.username}</p>
-                                        <p>time</p>
+                                        <p>Dec 2, 2024</p>
                                     </div>
                                     
                             </div>

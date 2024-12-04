@@ -33,9 +33,14 @@
     padding: 10px;
     font-size: 16px;
     border-style: hidden;
-    background-color: rgb(237, 231, 231);
+    background-color: rgb(243, 237, 237);
     border-radius: 8px;
     color: rgba(0,0,0,0.6);
+}
+.blog-post-main .blog-post-content h5:hover{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    cursor: pointer;
 }
 .blog-post-main .blog-post-content h3{
     font-size: 22px;
@@ -44,16 +49,24 @@
     margin: 0;
     color: rgba(0,0,0,0.8);
 }
+.blog-post-main .blog-post-content h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .blog-post-main .blog-post-content p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(0,0,0,0.6);
-    font-size: 18px;
+    font-size: 16px;
 
 }
 .blog-post-main .blog-post-content .user-details{
     display: flex;
+    justify-content: center;
+    align-items: center;
    align-items: center;
-   margin-top: 0px;
+   width: 200px;
+   height: 60px;
+   margin-bottom: 10px;
 }
 
 .icon-circle {
@@ -62,8 +75,33 @@
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #007bff; /* Blue background */
-    color: white; /* White icon */
-    border-radius: 50%; /* Circle */
-    font-size: 24px; /* Icon size */
+    background-color: #007bff;
+    color: white; 
+    border-radius: 50%; 
+    font-size: 24px; 
+  }
+  .username{
+    margin-left: 10px;
+  }
+  .username p:first-of-type{
+        font-weight: bold;
+        color: rgba(0,0,0,0.4);
+  }
+  .username p:first-of-type:hover{
+    color: #83abd5;
+    cursor: pointer;
+  }
+  .username p:last-of-type{
+    color: rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+
+  body.dark-mode .blog-post-main .blog-post-content h5{
+    background-color: hsl(216, 15%, 52%) ;
+  }
+  body.dark-mode .blog-post-main .blog-post-content h3 {
+    color: hsl(210, 38%, 95%);
+  }
+  body.dark-mode .blog-post-main .blog-post-content p{
+    color: hsl(211, 25%, 84%);
   }

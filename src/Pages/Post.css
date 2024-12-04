@@ -62,3 +62,23 @@
   .social-btn:hover {
     transform: scale(1.1);
   }
+body.dark-mode .twitter{
+  background-color: #1da1f2;
+}
+body.dark-mode .facebook{
+  background-color: #3b5998;
+}
+body.dark-mode .discord{
+  background-color: #5865f2;
+}
+
+  body.dark-mode .post-container h2{
+    color: hsl(210, 38%, 95%) ;
+  }
+  body.dark-mode .post-container .post-content{
+    background-color: hsl(218, 23%, 23%);
+   
+  }
+  body.dark-mode .post-container .post-content p{
+    color: hsl(210, 38%, 95%)  ;
+  }
