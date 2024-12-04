@@ -46,13 +46,18 @@
     background-color: #4180f3;
     color: white;
 }
-
+body.dark-mode .topics-container .topic-content div i:hover{
+    background-color: #4180f3;
+    color: white;
+    cursor: pointer;
+}
 body.dark-mode .topics-container h2{
     color: hsl(210, 38%, 95%) ;
 }
 body.dark-mode .topics-container .topic-content div{
     background-color: hsl(218, 23%, 23%);
     color: hsl(210, 38%, 95%)  ;
+    cursor: pointer;
 }
 body.dark-mode .topics-container .topic-content div i{
     background-color: hsl(216, 15%, 52%);

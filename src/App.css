@@ -126,8 +126,11 @@ body.dark-mode .main-content .blog-post-main{
     color: white;
 }
 body.dark-mode .main-content .blog-post-content h5{
- 
   color: white;
+}
+body.dark-mode .main-content .blog-post-content h5:hover{
+  background-color:hsl(210, 38%, 95%)  ;
+  color:  hsl(218, 23%, 23%) ;
 }
 body.dark-mode .main-blog .list-block-section .intro-section .main-intro h1{
   color: white;
