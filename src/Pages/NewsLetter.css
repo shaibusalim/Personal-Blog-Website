@@ -1,12 +1,13 @@
 .news-container{
     height: 400px;
     width: 300px;
-   
+   position: sticky;
+   top: 50px;
     margin-top: 130px;
     padding: 20px;
 }
 .news-container h2{
-    margin: 0px 0px 50px 50px;
+    margin: 0px 0px 30px 50px;
     color: rgba(0,0,0,0.8);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
