@@ -40,6 +40,26 @@
     font-weight: 900;
     color: rgba(0,0,0,0.6);
 }
+.header-main .header-content .header-list button{
+    width: 60px;
+    height: 27px;
+    border-radius: 40px;
+    background: linear-gradient(to right, #f9a602, #e94b3c,#f9a602);
+    border-style: hidden;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.header-main .header-content .header-list button span{
+    height: 21px;
+    width: 22px;
+    background-color: white;
+    border-radius: 50%;
+}
 body.dark-mode .header-main .header-content .header-list ul li a{
     color: white;
 }
@@ -50,5 +70,9 @@ body.dark-mode {
   
   body.dark-mode a {
     color: #bb86fc;
+  }
+  body.dark-mode .header-main .header-content .header-list button{
+    background: linear-gradient(to right, #8a2be2,#8a2be2, #ff69b4);
+
   }
   

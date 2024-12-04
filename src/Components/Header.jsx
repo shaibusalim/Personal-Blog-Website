@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react';
 import './Header.css';
 import LogoImage from '../assets/logo.png';
 import LightModeIcon from '../assets/logo-light.svg';
@@ -21,11 +20,13 @@ function Header({ toggleMode, isDarkMode }) {
           </ul>
           <button onClick={toggleMode}>
             <img
-              src={isDarkMode ? LightModeIcon : DarkModeIcon}
+              src={isDarkMode ? DarkModeIcon : LightModeIcon}
               alt={isDarkMode ? 'Light Mode' : 'Dark Mode'}
               width={25}
               height={25}
+              className='svg-icon'
             />
+            <span></span>
           </button>
         </div>
       </div>

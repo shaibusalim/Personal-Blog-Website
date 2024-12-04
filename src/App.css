@@ -42,13 +42,15 @@
   background-color: #4180f3;
   border-style: hidden;
   color: white;
+  cursor: pointer;
 }
 .main-blog .list-block-section .intro-section .main-intro .intro-button button:last-of-type{
   color: dimgray;
   border: 3px solid dimgray ;
+  cursor: pointer;
 }
 .main-blog .list-block-section .intro-section .main-intro h1 span{
-  color: #4682B4;
+  color:#4180f3;
 }
 .main-blog .list-block-section .intro-section .intro-image{
   
@@ -130,6 +132,9 @@ body.dark-mode .main-content .blog-post-content h5{
 body.dark-mode .main-blog .list-block-section .intro-section .main-intro h1{
   color: white;
 }
+body.dark-mode .main-blog .list-block-section .intro-section .main-intro h1 span{
+  color: #4180f3;
+}
 body.dark-mode .main-blog .list-block-section .intro-section .main-intro h2{
   color: white;
 }
@@ -140,4 +145,11 @@ body.dark-mode .main-blog .list-block-section .intro-section .main-intro .intro-
   background-color: hsl(218, 23%, 23%);
   color: hsl(210, 38%, 95%);
   border-color: hsl(210, 38%, 95%) ;
+}
+body.dark-mode .main-blog .list-block-section .intro-section .main-intro .intro-button button:last-of-type:hover{
+  border-color: #4180f3;
+}
+body.dark-mode .main-blog .list-block-section .intro-section .main-intro .intro-button button:first-of-type:hover{
+background-color: hsl(210, 38%, 95%);
+color: #333333;
 }
